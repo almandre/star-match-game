@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOMServer from 'react-dom/server';
 
-import App from 'components/App';
+import App from 'components/StarMatch';
 
 export async function serverRenderer() {
   const initialData = {
